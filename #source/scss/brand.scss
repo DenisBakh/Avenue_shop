@@ -1,0 +1,145 @@
+@import 'fonts';
+@import 'main';
+@import 'common';
+
+
+.ibg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ibg>img {
+  display: none;
+}
+
+/*=============HEADER-TOP=============================================*/
+@import 'header-top';
+
+
+/*=============HEADER-MIDDLE=============================================*/
+
+@import 'header-middle';
+
+.header__middle {
+	background-color: #f8f8f8;
+	height: auto;
+}
+.middle-header {
+	background:none;
+
+	height: 100%;
+	padding: 40px 0 40px 0;
+}
+
+
+/*===================HEADER-SUBMENU============================================*/
+@import 'header-submenu';
+
+/*=============HEADER-BOTTOM=============================================*/
+@import 'header-bottom';
+
+/*===================CONTENT============================================*/
+
+.content {
+	margin: 60px 0 124px 0;
+	flex:1 1 auto;
+	&__top {
+	}
+}
+
+.content {
+	&__top {
+	}
+}
+.container-max {
+}
+.container-header {
+	&__top {
+	}
+}
+.content-top {
+	&__row {
+		display: flex;
+		margin: 0 -15px;
+		@media (max-width: 425px) {
+			margin: 0;
+			flex-direction: column;
+		}
+	}
+	&__column {
+		padding: 0 15px;
+		flex:0 1 50%;
+		&:last-child {
+			align-self: flex-end;
+			padding: 0 15px 15px 15px;
+			@media (max-width: 425px) {
+				padding: 0;
+			}
+		}
+		&:first-child {
+			margin: 0 0 29px 0;
+		}
+		@media (max-width: 425px) {
+			padding: 0;
+		}
+	}
+	&__item {
+		img {
+			max-width: 100%;
+		}
+	}
+	&__first-img {
+		margin: 0 0 62px 0;
+		@media (max-width: 425px) {
+			margin: 0 0 30px 0;
+		}
+	}
+	&__second-img {
+		margin: 0 0 29px 0;
+	}
+	&__third-img {
+		margin: 60px 0 29px 0;
+	}
+	&__body {
+	}
+	&__title {
+		color: #575153;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin: 0 0 20px 0;
+	}
+	&__subtitle {
+		color: #727272;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		margin: 0 0 10px 0;
+	}
+	&__text {
+		color: #8e8c8c;
+		font-family: 'Roboto';
+		font-size: 15px;
+		line-height: 22px;
+		span, span a {
+			color: #00c8c8;
+		}
+		
+	}
+	&__img-row {
+		margin: 70px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+		img {
+			max-width: 33.333%;
+		}
+		@media (max-width: 768px) {
+			margin: 30px 0 0 0;
+		}
+	}
+}
+
+
+@import 'footer'

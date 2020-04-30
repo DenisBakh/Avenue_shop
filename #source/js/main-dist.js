@@ -1,0 +1,1 @@
+$(document).ready((function(){$("p").click((function(){$(this).show()}))})),$(document).ready((function(){$("p").click((function(){$(this).hide()}))}));
