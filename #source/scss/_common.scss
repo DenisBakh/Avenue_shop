@@ -12,7 +12,8 @@
 	border: 2px solid #737373;
 	transition: 0.5s all ease;
 	text-align: center;
-	&:hover, &.active {
+	&:hover,
+	&.active {
 		border: 2px solid #00c8c8;
 		background-color: #00c8c8;
 		color: #f8f8f8;
@@ -30,10 +31,10 @@
 }
 
 body {
-	
+	background-color: white;
 }
 
-.wrapper	{
+.wrapper {
 	overflow: hidden;
 	min-height: 100%;
 	display: flex;
@@ -41,13 +42,13 @@ body {
 }
 
 .container-max {
-  padding: 0 30px;
-  height: 100%;
+	padding: 0 30px;
+	height: 100%;
 }
 @media (max-width: 768px) {
-  .container-max {
-    padding: 0 5px;
-  }
+	.container-max {
+		padding: 0 5px;
+	}
 }
 .container {
 	height: 100%;
@@ -55,11 +56,10 @@ body {
 	margin: 0 auto;
 	&_narrow {
 		max-width: 1170px;
-  		margin: 0 auto;
+		margin: 0 auto;
 	}
 	&_wide {
 		max-width: 2050px;
-  		margin: 0 auto;
+		margin: 0 auto;
 	}
-
 }
