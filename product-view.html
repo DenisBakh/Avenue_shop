@@ -1,566 +1,796 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<title>Avenue_fashion</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<link rel="stylesheet" href="css/product-view.css" />
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header">
-				<div class="header__top top-header">
-					<div class="top-header__wrapper">
-						<div class="container-max">
-							<div class="container_narrow">
-								<div class="top-header__row">
-									<div class="top-header__column">
-										<div class="top-header__currency">
-											<label for="select" class="label">Currency :</label>
-											<div class="select-wrapper">
-												<select class="select-wrapper__item" id="select">
-													<option>USD</option>
-													<option>EUR</option>
-													<option>GPB</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="top-header__column">
-										<div class="top-header__right">
-											<a href="sign.html" class="top-header__reg">Register</a>
-											<a href="sign.html" class="top-header__sign">Sign In</a>
-											<a href="product-view.html" class="top-header__bascket">
-												<img src="img/header/cart.png" alt="cart">
-												<span>empty</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="top-header__arrow">
-							<div></div>
-							<div></div>
-						</div>
-					</div>
-				</div>
-				<div class="header__middle">
-					<div class="container">
-						<div class="middle-header">
-							<div class="container-max">
-								<div class="middle-header__wrapper">
-									<div class="middle-header__row">
-										<div class="middle-header__column">
-											<a href="index.html" class="middle-header__home-link"><h1 class="middle-header__title"><span>avenue</span> fashion</h1></a>
-										</div>
-										<div class="middle-header__column m">
-											<div class="middle-header__right">
 
-												<div class="middle-header__menu">
-													<div class="middle-header__icon-menu">
-														<div class="icon-menu">
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__secondary"></div>
-															<div class="icon-menu__secondary"></div>
-															<div class="icon-menu__bg disactive"></div>
-														</div>
-													</div>
-													<div class="middle-header__icon-search">
-														<div class="icon-search">
-															<div class="icon-search__icon"></div>
-															<div class="icon-search__search search">
-																<div class="search__body">
-																	<div class="search__form">
-																		<input class="search__input" type="text" placeholder="Search.." >
-																		<input class="search__btn" type="submit" value="" >
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<ul class="middle-header__list">
-														<li class="middle-header__item"><a onclick="return false" href="" class="middle-header__link">mens</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">casuals</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Hoodies & Sweatshirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Polo Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Sportswear</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers & Chinos</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">T-Shirts</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Formal</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Suits</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-														<li class="middle-header__item"><a href="" class="middle-header__link">womens</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">casuals</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Hoodies & Sweatshirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Polo Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Sportswear</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers & Chinos</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">T-Shirts</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Formal</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Suits</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-														<li class="middle-header__item"><a href="the_brand.html" class="middle-header__link">the brand </a></li>
-														<li class="middle-header__item"><a href="location.html" class="middle-header__link">local stores</a></li>
-														<li class="middle-header__item"><a href="lookbook.html" class="middle-header__link">look book</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Our Lookbooks</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Latest Posts (mixed)</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Men’s Lookbook</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Women’s Lookbook</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Your Lookbook</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">View and Edit</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Share</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Delete</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-													</ul>
-												</div>
+<head>
+	<title>Avenue_fashion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="css/product-view.css" />
+	<meta charset="UTF-8">
+</head>
 
-												<div class="middle-header__search search">
-													<div class="search__body">
-														<div class="search__form">
-															<input class="search__input" type="text" placeholder="Search.." >
-															<input class="search__btn" type="submit" value="" >
-														</div>
-													</div>
-												</div>
-															
-											</div>
-										</div>
-									</div>
-							<!--	<h2 class="middle-header__logo">A  V  E</h2>
-									<a href="" class="middle-header__shop-collection btn_details">shop men’s collection</a> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="header-bottom">
-						<div class="header-bottom__bg ibg"><img src="img/header/brand_bg.png" alt=""></div>
-						<div class="header-bottom__body">
-							<div class="container-max">
-								<div class="container">
-									<div class="header-bottom__text">
-										<h2 class="header-bottom__title"><span>our</span> lookbook</h2>
-										<h3 class="header-bottom__subtitle">Latest Posts - mens & womens</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-
-			<main class="content">
-				<section class="content__top">
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__wrapper">
 					<div class="container-max">
 						<div class="container_narrow">
-							<div class="content-top">
-								<div class="content-top__row">
-									<div class="content-top__column">
-										<div class="content-top__item">
-											<div class="slider">
-												<div class="slider__item">
-													<img src="img/product-view/slide.png" alt="slide">
+							<div class="top-header__row">
+								<div class="top-header__column">
+									<div class="top-header__currency">
+										<label for="select" class="label">Currency :</label>
+										<div class="select-wrapper">
+											<select class="select-wrapper__item" id="select">
+												<option>USD</option>
+												<option>EUR</option>
+												<option>GPB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="top-header__column">
+									<div class="top-header__right">
+										<a href="sign.html" class="top-header__reg">Register</a>
+										<a href="sign.html" class="top-header__sign">Sign In</a>
+										<a href="product-view.html" class="top-header__bascket">
+											<img src="img/header/cart.png" alt="cart">
+											<span>empty</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="top-header__arrow">
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__middle">
+				<div class="container">
+					<div class="middle-header">
+						<div class="container-max">
+							<div class="middle-header__wrapper">
+								<div class="middle-header__row">
+									<div class="middle-header__column">
+										<a href="index.html" class="middle-header__home-link">
+											<h1 class="middle-header__title"><span>avenue</span> fashion</h1>
+										</a>
+									</div>
+									<div class="middle-header__column m">
+										<div class="middle-header__right">
+
+											<div class="middle-header__menu">
+												<div class="middle-header__icon-menu">
+													<div class="icon-menu">
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__secondary"></div>
+														<div class="icon-menu__secondary"></div>
+														<div class="icon-menu__bg disactive"></div>
+													</div>
 												</div>
-												<div class="slider__item">
-													<img src="img/product-view/slide.png" alt="slide">
+												<div class="middle-header__icon-search">
+													<div class="icon-search">
+														<div class="icon-search__icon"></div>
+														<div class="icon-search__search search">
+															<div class="search__body">
+																<div class="search__form">
+																	<input class="search__input" type="text"
+																		placeholder="Search..">
+																	<input class="search__btn" type="submit" value="">
+																</div>
+															</div>
+														</div>
+													</div>
 												</div>
-												<div class="slider__item">
-													<img src="img/product-view/slide.png" alt="slide">
+												<ul class="middle-header__list">
+													<li class="middle-header__item"><a onclick="return false" href=""
+															class="middle-header__link">mens</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">casuals</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Hoodies
+																					& Sweatshirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Polo
+																					Shirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Sportswear</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers
+																					& Chinos</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">T-Shirts</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Formal</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Shirts</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Suits</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+													<li class="middle-header__item"><a onclick="return false" href=""
+															class="middle-header__link">womens</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">casuals</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Hoodies
+																					& Sweatshirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Polo
+																					Shirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Sportswear</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers
+																					& Chinos</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">T-Shirts</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Formal</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Shirts</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Suits</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+													<li class="middle-header__item"><a href="the_brand.html"
+															class="middle-header__link">the brand </a></li>
+													<li class="middle-header__item"><a href="location.html"
+															class="middle-header__link">local stores</a></li>
+													<li class="middle-header__item"><a onclick="return false"
+															href="lookbook.html" class="middle-header__link">look
+															book</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Our Lookbooks
+																		</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Latest
+																					Posts (mixed)</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Men’s
+																					Lookbook</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Women’s
+																					Lookbook</a></li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Your Lookbook
+																		</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">View
+																					and Edit</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Share</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Delete</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+
+											<div class="middle-header__search search">
+												<div class="search__body">
+													<div class="search__form">
+														<input class="search__input" type="text" placeholder="Search..">
+														<input class="search__btn" type="submit" value="">
+													</div>
 												</div>
-												<div class="slider__item">
-													<img src="img/product-view/slide.png" alt="slide">
-												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!--	<h2 class="middle-header__logo">A  V  E</h2>
+										<a href="" class="middle-header__shop-collection btn_details">shop men’s collection</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="header-bottom">
+					<div class="header-bottom__bg ibg"><img src="img/header/brand_bg.png" alt=""></div>
+					<div class="header-bottom__body">
+						<div class="container-max">
+							<div class="container">
+								<div class="header-bottom__text">
+									<h2 class="header-bottom__title"><span>our</span> lookbook</h2>
+									<h3 class="header-bottom__subtitle">Latest Posts - mens & womens</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="content">
+			<section class="content__top">
+				<div class="container-max">
+					<div class="container_narrow">
+						<div class="content-top">
+							<div class="content-top__row">
+								<div class="content-top__column">
+									<div class="content-top__item">
+										<div class="slider">
+											<div class="slider__item">
+												<img src="img/product-view/slide.png" alt="slide">
+											</div>
+											<div class="slider__item">
+												<img src="img/product-view/slide.png" alt="slide">
+											</div>
+											<div class="slider__item">
+												<img src="img/product-view/slide.png" alt="slide">
+											</div>
+											<div class="slider__item">
+												<img src="img/product-view/slide.png" alt="slide">
 											</div>
 										</div>
 									</div>
-									<div class="content-top__column">
-										<div class="content-top__item">
-											<div class="infobody-content">
-												<h3 class="infobody-content__title">Ave classic sweatshirt</h3>
-												<div class="infobody-content__rating-row">
-													<div class="rating-row">
-														<div class="rating-row__column">
-															<div class="rating-row__stars">
-															    <input id="star-4" type="radio" name="reviewStars"/>
-															    <label title="gorgeous" for="star-4"></label>
+								</div>
+								<div class="content-top__column">
+									<div class="content-top__item">
+										<div class="infobody-content">
+											<h3 class="infobody-content__title">Ave classic sweatshirt</h3>
+											<div class="infobody-content__rating-row">
+												<div class="rating-row">
+													<div class="rating-row__column">
+														<div class="rating-row__stars">
+															<input id="star-4" type="radio" name="reviewStars" />
+															<label title="gorgeous" for="star-4"></label>
 
-															    <input id="star-3" type="radio" name="reviewStars"/>
-															    <label title="good" for="star-3"></label>
+															<input id="star-3" type="radio" name="reviewStars" />
+															<label title="good" for="star-3"></label>
 
-															    <input id="star-2" type="radio" name="reviewStars"/>
-															    <label title="regular" for="star-2"></label>
+															<input id="star-2" type="radio" name="reviewStars" />
+															<label title="regular" for="star-2"></label>
 
-															    <input id="star-1" type="radio" name="reviewStars"/>
-															    <label title="poor" for="star-1"></label>
+															<input id="star-1" type="radio" name="reviewStars" />
+															<label title="poor" for="star-1"></label>
 
-															    <input id="star-0" type="radio" name="reviewStars"/>
-															    <label title="bad" for="star-0"></label>
-															</div>
-														</div>
-														<div class="rating-row__column">
-															<div class="rating-row__review"><a href="">3 Review(s)</a></div>
-														</div>
-														<div class="rating-row__column">
-															<div class="rating-row__review"><a href="">Add a Review</a></div>
-														</div>
-														<div class="rating-row__column">
-															<div class="rating-row__share">
-																<span>Share:</span>
-																<ul class="rating-row__social">
-																	<li><a class="twitter" href="#;"></a> </li>
-																	<li><a class="facebook" href="#;"></a> </li>
-																	<li><a class="linkedin" href="#;"></a> </li>
-																	<li><a class="youtube" href="#;"></a> </li>
-																</ul>
-															</div>
+															<input id="star-0" type="radio" name="reviewStars" />
+															<label title="bad" for="star-0"></label>
 														</div>
 													</div>
-												</div>
-												<div class="infobody-content__price">
-													<span class="infobody-content__price_old"><span class="infobody-content__currency">£</span>107</span>
-													<span class="infobody-content__price_new"><span class="infobody-content__currency">£</span>89.99</span>
-												</div>
-												<div class="infobody-content__techinfo">
-													<div class="infobody-content__availability">Availability: <span>In stock</span></div>
-													<div class="infobody-content__prodcode">Product Code: <span>#499577</span></div>
-													<div class="infobody-content__tags">
-														<div class="tags">
-															<p>Tags:</p>
-															<ul class="tags__list">
-																<li class="tags__item"><a href="" class="tags__link">Classic</a></li>
-																<li class="tags__item"><a href="" class="tags__link">Casual</a></li>
-																<li class="tags__item"><a href="" class="tags__link">V-neck</a></li>
-																<li class="tags__item"><a href="" class="tags__link">Loose</a></li>
-															</ul>
-														</div>
-													</div>	 
-												</div>
-												<div class="infobody-content__textbody">
-													<div class="infobody-content__text">
-														<p>Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.
-														</p>
+													<div class="rating-row__column">
+														<div class="rating-row__review"><a href="">3 Review(s)</a></div>
 													</div>
-													<div class="infobody-content__advantages">
-														<div class="advantages">
-															<ul class="advantages__list">
-																<li class="advantages__item">Elasticated cuffs</li>
-																<li class="advantages__item">Casual fit</li>
-																<li class="advantages__item">100% Cotton</li>
-																<li class="advantages__item">Free shipping with 4 days delivery</li>
+													<div class="rating-row__column">
+														<div class="rating-row__review"><a href="">Add a Review</a>
+														</div>
+													</div>
+													<div class="rating-row__column">
+														<div class="rating-row__share">
+															<span>Share:</span>
+															<ul class="rating-row__social">
+																<li><a class="twitter" href="#;"></a> </li>
+																<li><a class="facebook" href="#;"></a> </li>
+																<li><a class="linkedin" href="#;"></a> </li>
+																<li><a class="youtube" href="#;"></a> </li>
 															</ul>
 														</div>
 													</div>
 												</div>
-			
-												<div class="infobody-content__form">
-													<form action="" class="form-product">
-														<div class="form-product__row">
-															<div class="form-product__column">
-																<div class="form-product__item">
-																	<label for="select" class="form-product__label">Color</label>
-																	<select class="select-form" id="select">
-																		<option>Select color</option>
-																		<option>Red</option>
-																		<option>Blue</option>
-																		<option>Yellow</option>
-																	</select>
-																</div>
-															</div>
-															<div class="form-product__column">
-																<div class="form-product__item">
-																	<label for="select" class="form-product__label">Size</label>
-																	<select class="select-form" id="select">
-																		<option>Select size</option>
-																		<option>L</option>
-																		<option>XL</option>
-																		<option>XXL</option>
-																	</select>
-																</div>
-															</div>
-															<div class="form-product__column">
-																<div class="form-product__item">
-																	<label for="select" class="form-product__label">Qty</label>
-																    <div class="quantity">
-																    	<input type="text" name="name" value="1">
-																    	<div class="quantity__btns">
-																	      <button class="plus-btn" type="button" name="button">
-																	      </button>
-																	      <button class="minus-btn" type="button" name="button">
-																	      </button>
-																      </div>
-																    </div>
-																</div>
-															</div>
-
-														</div>
-													</form>
-												</div>
-												<div class="infobody-content__bnts">
-													<div class="infobody-content__btn">
-														<a href="" class="infobody-content__btn_a btn_details">
-															<img src="img/icons8-shopping-cart-64.png" alt="">
-															Add to Cart
-														</a>
-														<a href="" class="infobody-content__btn_b btn_details">
-															<img src="img/like.png" alt="">
-															Add to LookBook
-														</a>
+											</div>
+											<div class="infobody-content__price">
+												<span class="infobody-content__price_old"><span
+														class="infobody-content__currency">£</span>107</span>
+												<span class="infobody-content__price_new"><span
+														class="infobody-content__currency">£</span>89.99</span>
+											</div>
+											<div class="infobody-content__techinfo">
+												<div class="infobody-content__availability">Availability: <span>In
+														stock</span></div>
+												<div class="infobody-content__prodcode">Product Code:
+													<span>#499577</span></div>
+												<div class="infobody-content__tags">
+													<div class="tags">
+														<p>Tags:</p>
+														<ul class="tags__list">
+															<li class="tags__item"><a href=""
+																	class="tags__link">Classic</a></li>
+															<li class="tags__item"><a href=""
+																	class="tags__link">Casual</a></li>
+															<li class="tags__item"><a href=""
+																	class="tags__link">V-neck</a></li>
+															<li class="tags__item"><a href=""
+																	class="tags__link">Loose</a></li>
+														</ul>
 													</div>
-													<a href="" class="infobody-content__btn_c">
-														<img src="img/compare.png" alt="">								Add to compare
+												</div>
+											</div>
+											<div class="infobody-content__textbody">
+												<div class="infobody-content__text">
+													<p>Donec sem lorem laoreet tempor un risus vitae, rutrum sodales
+														nibh suspendisse est congue metus nunc, id viverra elit loreti
+														rhoncus quis consecteur es. Donec pulvinar tempor lorem a
+														pretium justo interdum.
+													</p>
+												</div>
+												<div class="infobody-content__advantages">
+													<div class="advantages">
+														<ul class="advantages__list">
+															<li class="advantages__item">Elasticated cuffs</li>
+															<li class="advantages__item">Casual fit</li>
+															<li class="advantages__item">100% Cotton</li>
+															<li class="advantages__item">Free shipping with 4 days
+																delivery</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+
+											<div class="infobody-content__form">
+												<form action="" class="form-product">
+													<div class="form-product__row">
+														<div class="form-product__column">
+															<div class="form-product__item">
+																<label for="select"
+																	class="form-product__label">Color</label>
+																<select class="select-form" id="select">
+																	<option>Select color</option>
+																	<option>Red</option>
+																	<option>Blue</option>
+																	<option>Yellow</option>
+																</select>
+															</div>
+														</div>
+														<div class="form-product__column">
+															<div class="form-product__item">
+																<label for="select"
+																	class="form-product__label">Size</label>
+																<select class="select-form" id="select">
+																	<option>Select size</option>
+																	<option>L</option>
+																	<option>XL</option>
+																	<option>XXL</option>
+																</select>
+															</div>
+														</div>
+														<div class="form-product__column">
+															<div class="form-product__item">
+																<label for="select"
+																	class="form-product__label">Qty</label>
+																<div class="quantity">
+																	<input type="text" name="name" value="1">
+																	<div class="quantity__btns">
+																		<button class="plus-btn" type="button"
+																			name="button">
+																		</button>
+																		<button class="minus-btn" type="button"
+																			name="button">
+																		</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</form>
+											</div>
+											<div class="infobody-content__bnts">
+												<div class="infobody-content__btn">
+													<a href="" class="infobody-content__btn_a btn_details">
+														<img src="img/icons8-shopping-cart-64.png" alt="">
+														Add to Cart
+													</a>
+													<a href="" class="infobody-content__btn_b btn_details">
+														<img src="img/like.png" alt="">
+														Add to LookBook
 													</a>
 												</div>
-
+												<a href="" class="infobody-content__btn_c">
+													<img src="img/compare.png" alt=""> Add to compare
+												</a>
 											</div>
+
 										</div>
 									</div>
 								</div>
-
 							</div>
+
 						</div>
 					</div>
-				</section>
-				<section class="content__bottom">
+				</div>
+			</section>
+			<section class="content__bottom">
+				<div class="container-max">
+					<div class="container_narrow">
+						<div class="content-bottom">
+							<ul class="content-bottom__list">
+								<li class="content-bottom__item active" data-content-block="1"><a onclick="return false"
+										href="#" class="content-bottom__link">popular</a></li>
+								<li class="content-bottom__item" data-content-block="2"><a onclick="return false"
+										href="#" class="content-bottom__link">new arrivals </a></li>
+								<li class="content-bottom__item" data-content-block="3"><a onclick="return false"
+										href="#" class="content-bottom__link">best sellers</a></li>
+								<li class="content-bottom__item" data-content-block="4"><a onclick="return false"
+										href="#" class="content-bottom__link">special offers </a></li>
+								<li class="content-bottom__item" data-content-block="5"><a onclick="return false"
+										href="#" class="content-bottom__link">coming soon</a></li>
+							</ul>
+							<div class="content-bottom__block active" data-content-block="1">
+								<div class="block-bottomcontent">
+									<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat
+										posuere eget</h3>
+									<p>
+										Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna,
+										interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget
+										ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a
+										purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit.
+										Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+										malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget
+										lorem tellus.
+									</p>
+									<p>
+										Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut
+										venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc
+										molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit,
+										tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis
+										velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat
+										justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et
+										lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam
+										varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit
+										augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet
+										ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis
+										diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel
+										dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+									</p>
+								</div>
+							</div>
+							<div class="content-bottom__block" data-content-block="2">
+								<div class="block-bottomcontent">
+									<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat
+										posuere eget</h3>
+									<p>
+										Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna,
+										interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget
+										ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a
+										purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit.
+										Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+										malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget
+										lorem tellus.
+									</p>
+									<p>
+										Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut
+										venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc
+										molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit,
+										tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis
+										velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat
+										justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et
+										lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam
+										varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit
+										augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet
+										ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis
+										diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel
+										dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+									</p>
+								</div>
+							</div>
+							<div class="content-bottom__block" data-content-block="3">
+								<div class="block-bottomcontent">
+									<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat
+										posuere eget</h3>
+									<p>
+										Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna,
+										interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget
+										ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a
+										purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit.
+										Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+										malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget
+										lorem tellus.
+									</p>
+									<p>
+										Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut
+										venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc
+										molestie risus nec fringilrna. Suspendisse potenti. Nullam varius quam sed nisl
+										dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus
+										gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium
+										cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id,
+										eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui
+										posuere mauris, in aliquet lorem eros eget neque.
+									</p>
+								</div>
+							</div>
+							<div class="content-bottom__block" data-content-block="4">
+								<div class="block-bottomcontent">
+									<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat
+										posuere eget</h3>
+									<p>
+										Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna,
+										interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget
+										ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a
+										purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit.
+										Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+										malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget
+										lorem tellus.
+									</p>
+									<p>
+										Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut
+										venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc
+										molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit,
+										tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis
+										velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat
+										justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et
+										lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam
+										varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit
+										augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet
+										ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis
+										diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel
+										dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+									</p>
+								</div>
+							</div>
+							<div class="content-bottom__block" data-content-block="5">
+								<div class="block-bottomcontent">
+									<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat
+										posuere eget</h3>
+									<p>
+										Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna,
+										interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget
+										ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a
+										purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit.
+										Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+										malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget
+										lorem tellus.
+									</p>
+									<p>
+										Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut
+										venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc
+										molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit,
+										tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis
+										velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat
+										justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et
+										lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam
+										varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit
+										augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet
+										ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis
+										diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel
+										dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<footer class="footer">
+			<div class="footer__main">
+				<div class="footer-main">
 					<div class="container-max">
 						<div class="container_narrow">
-							<div class="content-bottom">
-								<ul class="content-bottom__list">                                             
-									<li class="content-bottom__item active" data-content-block="1"><a onclick="return false" href="#" class="content-bottom__link">popular</a></li>
-									<li class="content-bottom__item" data-content-block="2"><a onclick="return false" href="#" class="content-bottom__link">new arrivals </a></li>
-									<li class="content-bottom__item" data-content-block="3"><a onclick="return false" href="#" class="content-bottom__link">best sellers</a></li>
-									<li class="content-bottom__item" data-content-block="4"><a onclick="return false" href="#" class="content-bottom__link">special offers  </a></li>
-									<li class="content-bottom__item" data-content-block="5"><a onclick="return false" href="#" class="content-bottom__link">coming soon</a></li>
-								</ul>
-								<div class="content-bottom__block active" data-content-block="1">
-									<div class="block-bottomcontent">
-										<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
-										<p>
-											Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
-										</p>
-										<p>
-											Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
-										</p>
-									</div>
+							<div class="footer-main__row">
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Information</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="the_brand.html"
+												class="footer-main__link">The brand</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Local stores</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Customer service</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Privacy & cookies</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Site map</a></li>
+									</ul>
 								</div>
-								<div class="content-bottom__block" data-content-block="2">
-									<div class="block-bottomcontent">
-										<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
-										<p>
-											Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
-										</p>
-										<p>
-											Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
-										</p>
-									</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Why buy from us</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Shipping & returns</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Secure shopping</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Testimonials</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Award winning</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Ethical trading</a></li>
+									</ul>
 								</div>
-								<div class="content-bottom__block" data-content-block="3">
-									<div class="block-bottomcontent">
-										<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
-										<p>
-											Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
-										</p>
-										<p>
-											Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilrna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
-										</p>
-									</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Your account</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Sign
+												in</a></li>
+										<li class="footer-main__item"><a href="sign.html"
+												class="footer-main__link">Register</a></li>
+										<li class="footer-main__item"><a href="product-view.html"
+												class="footer-main__link">View cart</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">View your lookbook</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Track an order</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Update information</a></li>
+									</ul>
 								</div>
-								<div class="content-bottom__block" data-content-block="4">
-									<div class="block-bottomcontent">
-										<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
-										<p>
-											Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
-										</p>
-										<p>
-											Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
-										</p>
-									</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Lookbook</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Latest posts</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Men’s lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Women’s lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Lookbooks RSS feed</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">View your lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Delete your lookbook</a></li>
+									</ul>
 								</div>
-								<div class="content-bottom__block" data-content-block="5">
-									<div class="block-bottomcontent">
-										<h3 class="block-bottomcontent__title">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
-										<p>
-											Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
-										</p>
-										<p>
-											Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
-										</p>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">contact details</h5>
+									<div class="footer-main__info">
+										<p class="footer-main__address">Head Office: Avenue Fashion,<br> 180-182 Regent
+											Street, London.</p>
+										<p class="footer-main__tel">Telephone: 0123-456-789</p>
+										<p class="footer-main__email">Email: support@yourwebsite.com</p>
 									</div>
 								</div>
 							</div>
+							<div class="footer-main__row_b">
+								<div class="footer-main__column_b ">
+									<h3 class="footer-main__title_b"><span>award winner</span> <br> fashion awards 2016
+									</h3>
+								</div>
+								<div class="footer-main__column_b ">
+									<div class="footer-main__social">
+										<ul class="footer-main__social-row">
+											<li><a class="twitter" href="product-view.html"></a> </li>
+											<li><a class="facebook" href="product-view.html"></a> </li>
+											<li><a class="linkedin" href="product-view.html"></a> </li>
+											<li><a class="youtube" href="product-view.html"></a> </li>
+										</ul>
 
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</section>
-			</main>
-
-
-			<footer class="footer">
-				<div class="footer__main">
-					<div class="footer-main">
+				</div>
+				<div class="footer__end">
+					<div class="footer-end">
 						<div class="container-max">
 							<div class="container_narrow">
-								<div class="footer-main__row">
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Information</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="the_brand.html" class="footer-main__link">The brand</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Local stores</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Customer service</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Privacy & cookies</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Site map</a></li>
-										</ul>
+								<div class="footer-end__row">
+									<div class="footer-end__column">
+										<div class="footer-end__copyright">© 2016 Avenue Fashion™ </div>
 									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Why buy from us</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Shipping & returns</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Secure shopping</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Testimonials</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Award winning</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Ethical trading</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Your account</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Sign in</a></li>
-											<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Register</a></li>
-											<li class="footer-main__item"><a href="product-view.html" class="footer-main__link">View cart</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">View your lookbook</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Track an order</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Update information</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Lookbook</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Latest posts</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Men’s lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Women’s lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Lookbooks RSS feed</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">View your lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Delete your lookbook</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">contact details</h5>
-										<div class="footer-main__info">
-											<p class="footer-main__address">Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</p>
-											<p class="footer-main__tel">Telephone: 0123-456-789</p>
-											<p class="footer-main__email">Email: support@yourwebsite.com</p>
-										</div>
-									</div>
-								</div>
-								<div class="footer-main__row_b">
-									<div class="footer-main__column_b ">
-										<h3 class="footer-main__title_b"><span>award winner</span> <br> fashion awards 2016</h3>
-									</div>
-									<div class="footer-main__column_b ">
-										<div class="footer-main__social">
-											<ul class="footer-main__social-row">
-												<li><a class="twitter" href="product-view.html"></a> </li>
-												<li><a class="facebook" href="product-view.html"></a> </li>
-												<li><a class="linkedin" href="product-view.html"></a> </li>
-												<li><a class="youtube" href="product-view.html"></a> </li>
-											</ul>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="footer__end">
-						<div class="footer-end">
-							<div class="container-max">
-								<div class="container_narrow">
-									<div class="footer-end__row">
-										<div class="footer-end__column">
-											<div class="footer-end__copyright">© 2016 Avenue Fashion™      </div>
-										</div>
-										<div class="footer-end__column">
-											<div class="footer-end__column_b">
-												<div class="footer-end__row_b">
-													<div class="footer-end__designby">Design by <a href="#">RobbyDesigns.com</a></div>
-													<div class="footer-end__devby">Dev by <a href="#">Loremipsum.com</a></div>
+									<div class="footer-end__column">
+										<div class="footer-end__column_b">
+											<div class="footer-end__row_b">
+												<div class="footer-end__designby">Design by <a
+														href="#">RobbyDesigns.com</a></div>
+												<div class="footer-end__devby">Dev by <a href="#">Loremipsum.com</a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							
 						</div>
+
 					</div>
 				</div>
-			</footer>
-		</div>
-			                                                               
+			</div>
+		</footer>
+	</div>
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="js/slick.min.js"></script>
-		<script src="js/slider.js"></script>
-		<script src="js/form-product.js"></script>
-		<script src="js/content-tab.js"></script>
-		<script src="js/script.js"></script>
-		
-	</body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/form-product.js"></script>
+	<script src="js/content-tab.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
 </html>

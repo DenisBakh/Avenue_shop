@@ -1,449 +1,620 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<title>Avenue_fashion</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<link rel="stylesheet" href="css/location.css" />
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header">
-				<div class="header__top top-header">
-					<div class="top-header__wrapper">
-						<div class="container-max">
-							<div class="container_narrow">
-								<div class="top-header__row">
-									<div class="top-header__column">
-										<div class="top-header__currency">
-											<label for="select" class="label">Currency :</label>
-											<div class="select-wrapper">
-												<select class="select-wrapper__item" id="select">
-													<option>USD</option>
-													<option>EUR</option>
-													<option>GPB</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="top-header__column">
-										<div class="top-header__right">
-											<a href="sign.html" class="top-header__reg">Register</a>
-											<a href="sign.html" class="top-header__sign">Sign In</a>
-											<a href="product-view.html" class="top-header__bascket">
-												<img src="img/header/cart.png" alt="cart">
-												<span>empty</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="top-header__arrow">
-							<div></div>
-							<div></div>
-						</div>
-					</div>
-				</div>
-				<div class="header__middle">
-					<div class="container">
-						<div class="middle-header">
-							<div class="container-max">
-								<div class="middle-header__wrapper">
-									<div class="middle-header__row">
-										<div class="middle-header__column">
-											<a href="index.html" class="middle-header__home-link"><h1 class="middle-header__title"><span>avenue</span> fashion</h1></a>
-										</div>
-										<div class="middle-header__column m">
-											<div class="middle-header__right">
 
-												<div class="middle-header__menu">
-													<div class="middle-header__icon-menu">
-														<div class="icon-menu">
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__primary"></div>
-															<div class="icon-menu__secondary"></div>
-															<div class="icon-menu__secondary"></div>
-															<div class="icon-menu__bg disactive"></div>
-														</div>
-													</div>
-													<div class="middle-header__icon-search">
-														<div class="icon-search">
-															<div class="icon-search__icon"></div>
-															<div class="icon-search__search search">
-																<div class="search__body">
-																	<div class="search__form">
-																		<input class="search__input" type="text" placeholder="Search.." >
-																		<input class="search__btn" type="submit" value="" >
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<ul class="middle-header__list">
-														<li class="middle-header__item"><a onclick="return false" href="" class="middle-header__link">mens</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">casuals</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Hoodies & Sweatshirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Polo Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Sportswear</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers & Chinos</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">T-Shirts</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Formal</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Suits</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-														<li class="middle-header__item"><a href="" class="middle-header__link">womens</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">casuals</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Hoodies & Sweatshirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Polo Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Sportswear</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers & Chinos</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">T-Shirts</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Formal</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Jackets</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Shirts</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Suits</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Trousers</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-														<li class="middle-header__item"><a href="the_brand.html" class="middle-header__link">the brand </a></li>
-														<li class="middle-header__item"><a href="location.html" class="middle-header__link">local stores</a></li>
-														<li class="middle-header__item"><a href="lookbook.html" class="middle-header__link">look book</a>
-															<div class="middle-header__submenu submenu-header">
-																<div class="submenu-header__body">
-																	<div class="submenu-header__row">
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Our Lookbooks</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Latest Posts (mixed)</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Men’s Lookbook</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Women’s Lookbook</a></li>
-																			</ul>
-																		</div>
-																		<div class="submenu-header__column">
-																			<h2 class="submenu-header__title">Your Lookbook</h2>
-																			<ul class="submenu-header__list">
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">View and Edit</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Share</a></li>
-																				<li class="submenu-header__item"><a href="lookbook.html" class="submenu-header__link">Delete</a></li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="submenu-header__offer"><span>Autumn sale!</span> <br> up to 50% off</div>
-																</div>
-															</div>
-														</li>
-													</ul>
-												</div>
+<head>
+	<title>Avenue_fashion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="css/location.css" />
+	<meta charset="UTF-8">
+</head>
 
-												<div class="middle-header__search search">
-													<div class="search__body">
-														<div class="search__form">
-															<input class="search__input" type="text" placeholder="Search.." >
-															<input class="search__btn" type="submit" value="" >
-														</div>
-													</div>
-												</div>
-															
-											</div>
-										</div>
-									</div>
-							<!--	<h2 class="middle-header__logo">A  V  E</h2>
-									<a href="" class="middle-header__shop-collection btn_details">shop men’s collection</a> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="header-bottom">
-						<div class="header-bottom__bg ibg"><img src="img/header/brand_bg.png" alt=""></div>
-						<div class="header-bottom__body">
-							<div class="container-max">
-								<div class="container">
-									<div class="header-bottom__text">
-										<h2 class="header-bottom__title"><span>local</span> stores</h2>
-										<h3 class="header-bottom__subtitle">Find a store near you</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-
-			<main class="content">
-				<section class="content__top">
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__wrapper">
 					<div class="container-max">
 						<div class="container_narrow">
-							<div class="content-top">
-								<div class="content-top__row">
-									<div class="content-top__column">
-										<div class="content-top__item">
-											<h3 class="content-top__title">London</h3>
-											<h4 class="content-top__subtitle">180-182 Regent Street, London, W1B 5BT</h4>
-											<div class="content-top__text top">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</div>
-											<a onclick="return false" href="" class="content-top__btn btn_details active" data-location="1">view details</a>
-										</div>
-									</div>
-									<div class="content-top__column">
-										<div class="content-top__item">
-											<h3 class="content-top__title">New York</h3>
-											<h4 class="content-top__subtitle">109 Columbus Circle, New York, NY 10023</h4>
-											<div class="content-top__text top">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</div>
-											<a onclick="return false" href="" class="content-top__btn btn_details" data-location="2">view details</a>
-										</div>
-									</div>
-									<div class="content-top__column">
-										<div class="content-top__item">
-											<h3 class="content-top__title">Paris</h3>
-											<h4 class="content-top__subtitle">2133 Rue Saint-Honoré, 75001 Paris</h4>
-											<div class="content-top__text top">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</div>
-											<a onclick="return false" href="" class="content-top__btn btn_details" data-location="3">view details</a>
+							<div class="top-header__row">
+								<div class="top-header__column">
+									<div class="top-header__currency">
+										<label for="select" class="label">Currency :</label>
+										<div class="select-wrapper">
+											<select class="select-wrapper__item" id="select">
+												<option>USD</option>
+												<option>EUR</option>
+												<option>GPB</option>
+											</select>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="container_wide">
-							<div class="content-top__map">
-								<div class="map-body active" data-location="1">
-									<div class="map-body__row">
-										<div class="map-body__column">
-											<div class="map-body__item">
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2087.960619170299!2d-0.14155219072597225!3d51.5128926590742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d5767c9015%3A0x1cf0ab0381c7fd45!2s180%20Regent%20St%2C%20Soho%2C%20London%20W1B%205TJ%2C%20UK!5e0!3m2!1sen!2sru!4v1586942381270!5m2!1sen!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-											</div>
-										</div>
-										<div class="map-body__column">
-											<div class="map-body__item_info">
-												<h3 class="content-top__title">London</h3>
-												<h4 class="content-top__subtitle">180-182 Regent Street, London, W1B 5BT</h4>
-												<p class="content-top__text">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</p>
-												<ul class="map-body__list">
-													<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT</li>
-													<li class="map-body__contact">0123-456-789</li>
-													<li class="map-body__contact">www.yourwebsite.com</li>
-													<li class="map-body__contact">support@yourwebsite.com</li>
-													<li class="map-body__contact">Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</li>
-												</ul>
-												<div class="map-body__social">
-													<a href="" class="map-body__icon"><img src="img/location/fb.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/tw.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/inst.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/int.png" alt=""></a>
-												</div>
-											</div>
-										</div>
+								<div class="top-header__column">
+									<div class="top-header__right">
+										<a href="sign.html" class="top-header__reg">Register</a>
+										<a href="sign.html" class="top-header__sign">Sign In</a>
+										<a href="product-view.html" class="top-header__bascket">
+											<img src="img/header/cart.png" alt="cart">
+											<span>empty</span>
+										</a>
 									</div>
 								</div>
-								<div class="map-body" data-location="2">
-									<div class="map-body__row">
-										<div class="map-body__column">
-											<div class="map-body__item">
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7146485829735!2d-73.98444318384048!3d40.76830044210464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f63cf10429%3A0x21ea18a2c52e7ca7!2s109%20Columbus%20Cir%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sen!2sru!4v1586942546244!5m2!1sen!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-											</div>
-										</div>
-										<div class="map-body__column">
-											<div class="map-body__item_info">
-												<h3 class="content-top__title">New York</h3>
-												<h4 class="content-top__subtitle">109 Columbus Circle, New York, NY 10023</h4>
-												<p class="content-top__text">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</p>
-												<ul class="map-body__list">
-													<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT</li>
-													<li class="map-body__contact">0123-456-789</li>
-													<li class="map-body__contact">www.yourwebsite.com</li>
-													<li class="map-body__contact">support@yourwebsite.com</li>
-													<li class="map-body__contact">Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</li>
-												</ul>
-												<div class="map-body__social">
-													<a href="" class="map-body__icon"><img src="img/location/fb.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/tw.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/inst.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/int.png" alt=""></a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="map-body" data-location="3">
-									<div class="map-body__row">
-										<div class="map-body__column">
-											<div class="map-body__item">
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.695941247289!2d2.331690816290426!3d48.86400820826434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e257ab8a9d9%3A0x60ac8c5b948a55ef!2sRue%20Saint-Honor%C3%A9%2C%20Paris%2C%20France!5e0!3m2!1sen!2sru!4v1587710882691!5m2!1sen!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-											</div>
-										</div>
-										<div class="map-body__column">
-											<div class="map-body__item_info">
-												<h3 class="content-top__title">Paris</h3>
-												<h4 class="content-top__subtitle">2133 Rue Saint-Honoré, 75001 Paris</h4>
-												<p class="content-top__text">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</p>
-												<ul class="map-body__list">
-													<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT</li>
-													<li class="map-body__contact">0123-456-789</li>
-													<li class="map-body__contact">www.yourwebsite.com</li>
-													<li class="map-body__contact">support@yourwebsite.com</li>
-													<li class="map-body__contact">Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</li>
-												</ul>
-												<div class="map-body__social">
-													<a href="" class="map-body__icon"><img src="img/location/fb.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/tw.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/inst.png" alt=""></a>
-													<a href="" class="map-body__icon"><img src="img/location/int.png" alt=""></a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								
 							</div>
 						</div>
 					</div>
-				</section>
-			</main>
-
-
-			<footer class="footer">
-				<div class="footer__main">
-					<div class="footer-main">
+					<div class="top-header__arrow">
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__middle">
+				<div class="container">
+					<div class="middle-header">
 						<div class="container-max">
-							<div class="container_narrow">
-								<div class="footer-main__row">
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Information</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="the_brand.html" class="footer-main__link">The brand</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Local stores</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Customer service</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Privacy & cookies</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Site map</a></li>
-										</ul>
+							<div class="middle-header__wrapper">
+								<div class="middle-header__row">
+									<div class="middle-header__column">
+										<a href="index.html" class="middle-header__home-link">
+											<h1 class="middle-header__title"><span>avenue</span> fashion</h1>
+										</a>
 									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Why buy from us</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Shipping & returns</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Secure shopping</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Testimonials</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Award winning</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Ethical trading</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Your account</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Sign in</a></li>
-											<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Register</a></li>
-											<li class="footer-main__item"><a href="product-view.html" class="footer-main__link">View cart</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">View your lookbook</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Track an order</a></li>
-											<li class="footer-main__item"><a href="location.html" class="footer-main__link">Update information</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">Lookbook</h5>
-										<ul class="footer-main__list">
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Latest posts</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Men’s lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Women’s lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Lookbooks RSS feed</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">View your lookbook</a></li>
-											<li class="footer-main__item"><a href="lookbook.html" class="footer-main__link">Delete your lookbook</a></li>
-										</ul>
-									</div>
-									<div class="footer-main__column">
-										<h5 class="footer-main__title">contact details</h5>
-										<div class="footer-main__info">
-											<p class="footer-main__address">Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</p>
-											<p class="footer-main__tel">Telephone: 0123-456-789</p>
-											<p class="footer-main__email">Email: support@yourwebsite.com</p>
-										</div>
-									</div>
-								</div>
-								<div class="footer-main__row_b">
-									<div class="footer-main__column_b ">
-										<h3 class="footer-main__title_b"><span>award winner</span> <br> fashion awards 2016</h3>
-									</div>
-									<div class="footer-main__column_b ">
-										<div class="footer-main__social">
-											<ul class="footer-main__social-row">
-												<li><a class="twitter" href="product-view.html"></a> </li>
-												<li><a class="facebook" href="product-view.html"></a> </li>
-												<li><a class="linkedin" href="product-view.html"></a> </li>
-												<li><a class="youtube" href="product-view.html"></a> </li>
-											</ul>
+									<div class="middle-header__column m">
+										<div class="middle-header__right">
+
+											<div class="middle-header__menu">
+												<div class="middle-header__icon-menu">
+													<div class="icon-menu">
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__primary"></div>
+														<div class="icon-menu__secondary"></div>
+														<div class="icon-menu__secondary"></div>
+														<div class="icon-menu__bg disactive"></div>
+													</div>
+												</div>
+												<div class="middle-header__icon-search">
+													<div class="icon-search">
+														<div class="icon-search__icon"></div>
+														<div class="icon-search__search search">
+															<div class="search__body">
+																<div class="search__form">
+																	<input class="search__input" type="text"
+																		placeholder="Search..">
+																	<input class="search__btn" type="submit" value="">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<ul class="middle-header__list">
+													<li class="middle-header__item"><a onclick="return false" href=""
+															class="middle-header__link">mens</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">casuals</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Hoodies
+																					& Sweatshirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Polo
+																					Shirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Sportswear</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers
+																					& Chinos</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">T-Shirts</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Formal</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Shirts</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Suits</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+													<li class="middle-header__item"><a onclick="return false" href=""
+															class="middle-header__link">womens</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">casuals</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Hoodies
+																					& Sweatshirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Polo
+																					Shirts</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Sportswear</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers
+																					& Chinos</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">T-Shirts</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Formal</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Jackets</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Shirts</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Suits</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Trousers</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+													<li class="middle-header__item"><a href="the_brand.html"
+															class="middle-header__link">the brand </a></li>
+													<li class="middle-header__item"><a href="location.html"
+															class="middle-header__link">local stores</a></li>
+													<li class="middle-header__item"><a onclick="return false"
+															href="lookbook.html" class="middle-header__link">look
+															book</a>
+														<div class="middle-header__submenu submenu-header">
+															<div class="submenu-header__body">
+																<div class="submenu-header__row">
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Our Lookbooks
+																		</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Latest
+																					Posts (mixed)</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Men’s
+																					Lookbook</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Women’s
+																					Lookbook</a></li>
+																		</ul>
+																	</div>
+																	<div class="submenu-header__column">
+																		<h2 class="submenu-header__title">Your Lookbook
+																		</h2>
+																		<ul class="submenu-header__list">
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">View
+																					and Edit</a></li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Share</a>
+																			</li>
+																			<li class="submenu-header__item"><a
+																					href="lookbook.html"
+																					class="submenu-header__link">Delete</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+																<div class="submenu-header__offer"><span>Autumn
+																		sale!</span> <br> up to 50% off</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+
+											<div class="middle-header__search search">
+												<div class="search__body">
+													<div class="search__form">
+														<input class="search__input" type="text" placeholder="Search..">
+														<input class="search__btn" type="submit" value="">
+													</div>
+												</div>
+											</div>
 
 										</div>
 									</div>
 								</div>
+								<!--	<h2 class="middle-header__logo">A  V  E</h2>
+									<a href="" class="middle-header__shop-collection btn_details">shop men’s collection</a> -->
 							</div>
-						</div>
-					</div>
-					<div class="footer__end">
-						<div class="footer-end">
-							<div class="container-max">
-								<div class="container_narrow">
-									<div class="footer-end__row">
-										<div class="footer-end__column">
-											<div class="footer-end__copyright">© 2016 Avenue Fashion™      </div>
-										</div>
-										<div class="footer-end__column">
-											<div class="footer-end__column_b">
-												<div class="footer-end__row_b">
-													<div class="footer-end__designby">Design by <a href="#">RobbyDesigns.com</a></div>
-													<div class="footer-end__devby">Dev by <a href="#">Loremipsum.com</a></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
 						</div>
 					</div>
 				</div>
-			</footer>
-		</div>
-			                                                               
+			</div>
+			<div class="header__bottom">
+				<div class="header-bottom">
+					<div class="header-bottom__bg ibg"><img src="img/header/brand_bg.png" alt=""></div>
+					<div class="header-bottom__body">
+						<div class="container-max">
+							<div class="container">
+								<div class="header-bottom__text">
+									<h2 class="header-bottom__title"><span>local</span> stores</h2>
+									<h3 class="header-bottom__subtitle">Find a store near you</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="content">
+			<section class="content__top">
+				<div class="container-max">
+					<div class="container_narrow">
+						<div class="content-top">
+							<div class="content-top__row">
+								<div class="content-top__column">
+									<div class="content-top__item">
+										<h3 class="content-top__title">London</h3>
+										<h4 class="content-top__subtitle">180-182 Regent Street, London, W1B 5BT</h4>
+										<div class="content-top__text top">Lorem ipsum dolor sit amet, consectetur
+											adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit
+											massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+											Aliquam erat volutpat.</div>
+										<a onclick="return false" href="" class="content-top__btn btn_details active"
+											data-location="1">view details</a>
+									</div>
+								</div>
+								<div class="content-top__column">
+									<div class="content-top__item">
+										<h3 class="content-top__title">New York</h3>
+										<h4 class="content-top__subtitle">109 Columbus Circle, New York, NY 10023</h4>
+										<div class="content-top__text top">Nunc non posuere nisl. Etiam finibus vel dui
+											nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo
+											fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam
+											dui, non sodales nisl.</div>
+										<a onclick="return false" href="" class="content-top__btn btn_details"
+											data-location="2">view details</a>
+									</div>
+								</div>
+								<div class="content-top__column">
+									<div class="content-top__item">
+										<h3 class="content-top__title">Paris</h3>
+										<h4 class="content-top__subtitle">2133 Rue Saint-Honoré, 75001 Paris</h4>
+										<div class="content-top__text top">Ut interdum fermentum blandit. Donec nec
+											lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml
+											auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices
+											posuere cubilia curae cras ligula.</div>
+										<a onclick="return false" href="" class="content-top__btn btn_details"
+											data-location="3">view details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container_wide">
+						<div class="content-top__map">
+							<div class="map-body active" data-location="1">
+								<div class="map-body__row">
+									<div class="map-body__column">
+										<div class="map-body__item">
+											<iframe
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2087.960619170299!2d-0.14155219072597225!3d51.5128926590742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d5767c9015%3A0x1cf0ab0381c7fd45!2s180%20Regent%20St%2C%20Soho%2C%20London%20W1B%205TJ%2C%20UK!5e0!3m2!1sen!2sru!4v1586942381270!5m2!1sen!2sru"
+												frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+												tabindex="0"></iframe>
+										</div>
+									</div>
+									<div class="map-body__column">
+										<div class="map-body__item_info">
+											<h3 class="content-top__title">London</h3>
+											<h4 class="content-top__subtitle">180-182 Regent Street, London, W1B 5BT
+											</h4>
+											<p class="content-top__text">Lorem ipsum dolor sit amet, consectetur
+												adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit
+												massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra
+												iaculis. Aliquam erat volutpat.</p>
+											<ul class="map-body__list">
+												<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT
+												</li>
+												<li class="map-body__contact">0123-456-789</li>
+												<li class="map-body__contact">www.yourwebsite.com</li>
+												<li class="map-body__contact">support@yourwebsite.com</li>
+												<li class="map-body__contact">Monday-Friday: 9am to 6pm Saturday: 10am
+													to 6pm Sunday: 10am to 2pm</li>
+											</ul>
+											<div class="map-body__social">
+												<a href="" class="map-body__icon"><img src="img/location/fb.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/tw.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/inst.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/int.png"
+														alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="map-body" data-location="2">
+								<div class="map-body__row">
+									<div class="map-body__column">
+										<div class="map-body__item">
+											<iframe
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7146485829735!2d-73.98444318384048!3d40.76830044210464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f63cf10429%3A0x21ea18a2c52e7ca7!2s109%20Columbus%20Cir%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sen!2sru!4v1586942546244!5m2!1sen!2sru"
+												frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+												tabindex="0"></iframe>
+										</div>
+									</div>
+									<div class="map-body__column">
+										<div class="map-body__item_info">
+											<h3 class="content-top__title">New York</h3>
+											<h4 class="content-top__subtitle">109 Columbus Circle, New York, NY 10023
+											</h4>
+											<p class="content-top__text">Nunc non posuere nisl. Etiam finibus vel dui
+												nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo
+												fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam
+												dui, non sodales nisl.</p>
+											<ul class="map-body__list">
+												<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT
+												</li>
+												<li class="map-body__contact">0123-456-789</li>
+												<li class="map-body__contact">www.yourwebsite.com</li>
+												<li class="map-body__contact">support@yourwebsite.com</li>
+												<li class="map-body__contact">Monday-Friday: 9am to 6pm Saturday: 10am
+													to 6pm Sunday: 10am to 2pm</li>
+											</ul>
+											<div class="map-body__social">
+												<a href="" class="map-body__icon"><img src="img/location/fb.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/tw.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/inst.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/int.png"
+														alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="map-body" data-location="3">
+								<div class="map-body__row">
+									<div class="map-body__column">
+										<div class="map-body__item">
+											<iframe
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.695941247289!2d2.331690816290426!3d48.86400820826434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e257ab8a9d9%3A0x60ac8c5b948a55ef!2sRue%20Saint-Honor%C3%A9%2C%20Paris%2C%20France!5e0!3m2!1sen!2sru!4v1587710882691!5m2!1sen!2sru"
+												frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+												tabindex="0"></iframe>
+										</div>
+									</div>
+									<div class="map-body__column">
+										<div class="map-body__item_info">
+											<h3 class="content-top__title">Paris</h3>
+											<h4 class="content-top__subtitle">2133 Rue Saint-Honoré, 75001 Paris</h4>
+											<p class="content-top__text">Ut interdum fermentum blandit. Donec nec lacus
+												egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor.
+												Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices
+												posuere cubilia curae cras ligula.</p>
+											<ul class="map-body__list">
+												<li class="map-body__contact">180-182 Regent Street, London, W1B 5BT
+												</li>
+												<li class="map-body__contact">0123-456-789</li>
+												<li class="map-body__contact">www.yourwebsite.com</li>
+												<li class="map-body__contact">support@yourwebsite.com</li>
+												<li class="map-body__contact">Monday-Friday: 9am to 6pm Saturday: 10am
+													to 6pm Sunday: 10am to 2pm</li>
+											</ul>
+											<div class="map-body__social">
+												<a href="" class="map-body__icon"><img src="img/location/fb.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/tw.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/inst.png"
+														alt=""></a>
+												<a href="" class="map-body__icon"><img src="img/location/int.png"
+														alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/content-tab.js"></script>
-		<script src="js/form-product.js"></script>
-	</body>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<footer class="footer">
+			<div class="footer__main">
+				<div class="footer-main">
+					<div class="container-max">
+						<div class="container_narrow">
+							<div class="footer-main__row">
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Information</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="the_brand.html"
+												class="footer-main__link">The brand</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Local stores</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Customer service</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Privacy & cookies</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Site map</a></li>
+									</ul>
+								</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Why buy from us</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Shipping & returns</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Secure shopping</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Testimonials</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Award winning</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Ethical trading</a></li>
+									</ul>
+								</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Your account</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="sign.html" class="footer-main__link">Sign
+												in</a></li>
+										<li class="footer-main__item"><a href="sign.html"
+												class="footer-main__link">Register</a></li>
+										<li class="footer-main__item"><a href="product-view.html"
+												class="footer-main__link">View cart</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">View your lookbook</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Track an order</a></li>
+										<li class="footer-main__item"><a href="location.html"
+												class="footer-main__link">Update information</a></li>
+									</ul>
+								</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">Lookbook</h5>
+									<ul class="footer-main__list">
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Latest posts</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Men’s lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Women’s lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Lookbooks RSS feed</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">View your lookbook</a></li>
+										<li class="footer-main__item"><a href="lookbook.html"
+												class="footer-main__link">Delete your lookbook</a></li>
+									</ul>
+								</div>
+								<div class="footer-main__column">
+									<h5 class="footer-main__title">contact details</h5>
+									<div class="footer-main__info">
+										<p class="footer-main__address">Head Office: Avenue Fashion,<br> 180-182 Regent
+											Street, London.</p>
+										<p class="footer-main__tel">Telephone: 0123-456-789</p>
+										<p class="footer-main__email">Email: support@yourwebsite.com</p>
+									</div>
+								</div>
+							</div>
+							<div class="footer-main__row_b">
+								<div class="footer-main__column_b ">
+									<h3 class="footer-main__title_b"><span>award winner</span> <br> fashion awards 2016
+									</h3>
+								</div>
+								<div class="footer-main__column_b ">
+									<div class="footer-main__social">
+										<ul class="footer-main__social-row">
+											<li><a class="twitter" href="product-view.html"></a> </li>
+											<li><a class="facebook" href="product-view.html"></a> </li>
+											<li><a class="linkedin" href="product-view.html"></a> </li>
+											<li><a class="youtube" href="product-view.html"></a> </li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__end">
+					<div class="footer-end">
+						<div class="container-max">
+							<div class="container_narrow">
+								<div class="footer-end__row">
+									<div class="footer-end__column">
+										<div class="footer-end__copyright">© 2016 Avenue Fashion™ </div>
+									</div>
+									<div class="footer-end__column">
+										<div class="footer-end__column_b">
+											<div class="footer-end__row_b">
+												<div class="footer-end__designby">Design by <a
+														href="#">RobbyDesigns.com</a></div>
+												<div class="footer-end__devby">Dev by <a href="#">Loremipsum.com</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/content-tab.js"></script>
+	<script src="js/form-product.js"></script>
+</body>
+
 </html>
