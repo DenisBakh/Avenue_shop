@@ -22,8 +22,8 @@
 	padding: 40px 0 40px 0;
 	background: #f8f8f8 url("../img/header/header-middle_men.png") 11% 0 / auto auto no-repeat;
 	@media (max-width: 800px) {
-		background-size: contain;
-		background-position: 0;
+		background-size: cover;
+		background-position: center;
 	}
 	&__wrapper {
 		display: flex;
