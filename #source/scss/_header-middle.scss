@@ -20,7 +20,7 @@
 .middle-header {
 	height: 100%;
 	padding: 40px 0 40px 0;
-	background: #f8f8f8 url("../img/header/header-middle_men.png") 11% 0/auto auto no-repeat;
+	background: #f8f8f8 url("../img/header/header-middle_men.png") 11% 0 / auto auto no-repeat;
 	@media (max-width: 800px) {
 		background-size: contain;
 		background-position: 0;
@@ -29,7 +29,7 @@
 		display: flex;
 		flex-direction: column;
 	}
-	&__row {	
+	&__row {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
@@ -97,14 +97,14 @@
 	&__right {
 		display: flex;
 	}
-	&__menu {	
+	&__menu {
 		flex-grow: 0;
 		flex-shrink: 0;
-		margin: 0 115px 0 0;	
+		margin: 0 115px 0 0;
 		position: relative;
 		@media (max-width: 1024px) {
-			margin: 0 0 0 0;	
-			order:2;
+			margin: 0 0 0 0;
+			order: 2;
 			position: fixed;
 			right: 0;
 			top: 44px;
@@ -113,10 +113,10 @@
 			opacity: 0.95;
 			background-color: #333333;
 			padding: 120px 0 0 0;
-			transform: translate3d(100%,0,0);
+			transform: translate3d(100%, 0, 0);
 			transition: 0.5s all;
 			&.active {
-				transform: translate3d(0,0,0);
+				transform: translate3d(0, 0, 0);
 			}
 		}
 		/*@media (max-width: 600px) {
@@ -141,30 +141,34 @@
 	}
 	&__item {
 		margin: 0 57px 0 0;
-		
+
 		text-align: center;
 		@media (max-width: 1024px) {
-			margin: 0 0 0 0;	
+			margin: 0 0 0 0;
 			width: 100%;
 			&:not(:last-child):before {
 				content: "";
 				display: block;
 				position: absolute;
-				width: 8px;height:8px;
-				bottom: 20px;left: 50%;
+				width: 8px;
+				height: 8px;
+				bottom: 20px;
+				left: 50%;
 				background-color: white;
 				border-radius: 50%;
 			}
 		}
-		
-		&:nth-child(1) .middle-header__link:after, 
+
+		&:nth-child(1) .middle-header__link:after,
 		&:nth-child(2) .middle-header__link:after,
 		&:nth-child(5) .middle-header__link:after {
 			content: "";
 			display: block;
 			position: absolute;
-			width: 8px;height:5px;
-			bottom: 0;left: 0;
+			width: 8px;
+			height: 5px;
+			bottom: 0;
+			left: 0;
 			background: url("../img/header/arrow.png") no-repeat;
 			@media (max-width: 1024px) {
 				transform: rotate(90deg);
@@ -190,7 +194,7 @@
 	&__link {
 		padding: 0 0 14px 0;
 		position: relative;
-		transition:all 0.4s ease;
+		transition: all 0.4s ease;
 		display: block;
 
 		color: #222222;
@@ -207,8 +211,10 @@
 				content: "";
 				display: block;
 				position: absolute;
-				width: 8px;height:8px;
-				bottom: -4px;left: 50%;
+				width: 8px;
+				height: 8px;
+				bottom: -4px;
+				left: 50%;
 				background-color: white;
 				border-radius: 50%;
 			}
@@ -228,8 +234,8 @@
 
 .icon-menu {
 	display: none;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	position: absolute;
 	top: 80px;
 	right: 100%;
@@ -240,7 +246,7 @@
 		height: 100%;
 		width: 100%;
 		border-radius: 50%;
-		background-color: #bbe7f5 ;
+		background-color: #bbe7f5;
 		transition: all 1s;
 		&.active {
 			background-color: #fce3bd;
@@ -256,7 +262,8 @@
 		z-index: 2;
 		position: absolute;
 		margin: 0 auto;
-		top:13.5px;
+		top: 50%;
+		transform: translate(0, -50%);
 		left: 15%;
 		opacity: 0.75;
 		height: 3px;
@@ -264,16 +271,16 @@
 		background-color: black;
 	}
 	div:nth-child(4) {
-		transform: translate3d(0,-1000px,0) rotate(45deg);
+		transform: translate3d(0, -1000px, 0) rotate(45deg);
 	}
 	div:nth-child(5) {
-		transform: translate3d(0,10000px,0) rotate(-45deg);
+		transform: translate3d(0, 10000px, 0) rotate(-45deg);
 	}
 	div:first-child {
-		top:6px;
+		top: 33.333%;
 	}
 	div:nth-child(3) {
-		top:21px;
+		top: 66.667%;
 	}
 }
 
@@ -303,11 +310,11 @@
 .icon-search {
 	position: absolute;
 	right: 100%;
-	top: 40px;
+	top: 30px;
 	z-index: 2;
 	&__icon {
-		height:30px;
-		width: 30px;
+		height: 40px;
+		width: 40px;
 		border-radius: 50%;
 		border: 1px solid #5c5b5a;
 		background: #f3f3f3 url("../img/header/search_icon.png") center no-repeat;
@@ -332,19 +339,17 @@
 	}
 }
 
-
-
 .search {
 	margin: -3px 0 0 0;
 	width: 190px;
 	height: 30px;
 	@media (max-width: 1024px) {
-		margin: 0 0 0 0;	
-		order:1;
+		margin: 0 0 0 0;
+		order: 1;
 	}
 	@media (max-width: 600px) {
-		margin: 0 0 0 0;	
-		order:1;
+		margin: 0 0 0 0;
+		order: 1;
 	}
 	&__body {
 		width: 100%;
@@ -371,10 +376,10 @@
 	}
 	&__btn {
 		position: absolute;
-		height:15px;
+		height: 15px;
 		width: 13px;
 		top: 50%;
-		transform: translate3d(0,-50%,0);
+		transform: translate3d(0, -50%, 0);
 		right: 11px;
 		background: url("../img/header/search_icon.png") no-repeat;
 		z-index: 1;
