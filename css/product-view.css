@@ -2358,7 +2358,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 520px) {
   .footer-main__social-row li .youtube {
-    background-position: -64px 5px;
+    background-position: -64px 0px;
   }
 }
 
