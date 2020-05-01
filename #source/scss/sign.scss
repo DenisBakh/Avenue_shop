@@ -1,53 +1,48 @@
-@import 'fonts';
-@import 'main';
-@import 'common';
-
+@import "_fonts";
+@import "_main";
+@import "_common";
 
 .ibg {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
-.ibg>img {
-  display: none;
+.ibg > img {
+	display: none;
 }
 
 /*=============HEADER-TOP=============================================*/
-@import 'header-top';
-
+@import "_header-top";
 
 /*=============HEADER-MIDDLE=============================================*/
 
-@import 'header-middle';
+@import "_header-middle";
 
 .header__middle {
 	background-color: #f8f8f8;
 	height: auto;
 }
 .middle-header {
-	background:none;
+	background: none;
 
 	height: 100%;
 	padding: 40px 0 40px 0;
 }
 
-
 /*===================HEADER-SUBMENU============================================*/
-@import 'header-submenu';
+@import "_header-submenu";
 
 /*=============HEADER-BOTTOM=============================================*/
-@import 'header-bottom';
+@import "_header-bottom";
 
 /*===================CONTENT============================================*/
 
 .content {
 	margin: 60px 0 124px 0;
-	flex:1 1 auto;
+	flex: 1 1 auto;
 	&__top {
 	}
 }
-
-
 
 .content-top {
 	&__row {
@@ -59,7 +54,7 @@
 		}
 	}
 	&__column {
-		flex:0 1 50%;
+		flex: 0 1 50%;
 		padding: 0 35px;
 		@media (max-width: 425px) {
 			padding: 0;
@@ -74,7 +69,6 @@
 				margin: 0 0 25px 0;
 			}
 		}
-		
 	}
 	&__item {
 		max-width: 570px;
@@ -103,11 +97,22 @@ input:focus:-moz-placeholder           {text-indent: 500px; transition: text-ind
 input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
  */
 
-
-:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+:focus::-webkit-input-placeholder {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+:focus::-moz-placeholder {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+:focus:-moz-placeholder {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+:focus:-ms-input-placeholder {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
 
 .form-block {
 	margin: 0 0 35px 0;
@@ -126,7 +131,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 		border: 1px solid #e7e7e7;
 		background-color: transparent;
 		&::-webkit-input-placeholder {
-			opacity: 1; 
+			opacity: 1;
 			transition: opacity 0.3s ease;
 			color: #989898;
 			font-family: Montserrat;
@@ -134,7 +139,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 			font-weight: 300;
 		}
 		&::-moz-placeholder {
-			opacity: 1; 
+			opacity: 1;
 			transition: opacity 0.3s ease;
 			color: #989898;
 			font-family: Montserrat;
@@ -142,7 +147,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 			font-weight: 300;
 		}
 		&:-moz-placeholder {
-			opacity: 1; 
+			opacity: 1;
 			transition: opacity 0.3s ease;
 			color: #989898;
 			font-family: Montserrat;
@@ -150,7 +155,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 			font-weight: 300;
 		}
 		&:-ms-input-placeholder {
-			opacity: 1; 
+			opacity: 1;
 			transition: opacity 0.3s ease;
 			color: #989898;
 			font-family: Montserrat;
@@ -159,15 +164,16 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 		}
 		&:focus {
 			&::-webkit-input-placeholder {
-				opacity: 0; 
+				opacity: 0;
 			}
 			&::-moz-placeholder {
-				opacity: 0; 			}
+				opacity: 0;
+			}
 			&:-moz-placeholder {
-				opacity: 0; 
+				opacity: 0;
 			}
 			&:-ms-input-placeholder {
-				opacity: 0; 
+				opacity: 0;
 			}
 		}
 	}
@@ -210,20 +216,20 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 	}
 	&__remind {
 		color: #00c8c8;
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-size: 15px;
 		line-height: 22px;
-	}	
-	
+	}
+
 	&__policy {
 		color: #00c8c8;
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-size: 15px;
 		line-height: 22px;
 	}
 	span {
 		color: #8e8c8c;
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-size: 15px;
 		line-height: 22px;
 	}
@@ -232,6 +238,4 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 	}
 }
 
-
-
-@import 'footer';
+@import "_footer";
