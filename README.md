@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="159" height="60" src="https://github.com/DenisBakh/Hotel-Toxin/blob/master/src/project/common.blocks/ui_kit/logotype/logo_UI/Logo.png">
+  <img width="300" height="302" src="https://github.com/DenisBakh/Avenue_shop/blob/master/preview.png">
   <h1>Avenue-shop</h1>
   <p>
     Avenue-shop - первый многостраничный сайт с использованием предпроцессора scss и сторонних js модулей. Выполнен без использования сборщиков, шаблонизаторов и оптимизаторов, как первый многостраничный проект после 2х месячного обучения.
